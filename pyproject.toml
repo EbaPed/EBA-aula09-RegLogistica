@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "aula09"
+version = "0.1.0"
+description = ""
+authors = ["VanGaigher <vanessa.mat.sedu@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.11"
+scikit-learn = "^1.5.2"
+ipykernel = "^6.29.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
